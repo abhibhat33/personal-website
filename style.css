@@ -1,0 +1,306 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 2px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 40px;
+}
+
+.contact-list {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+.contact-list li {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.contact-list li a img {
+    width: 25px; /* Adjust the width to make the images smaller */
+    height: 25px; /* Adjust the height proportionally */
+    margin: 0; /* Remove the default margin */
+}
+
+/* Reset some default styles */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+.profile-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9800; /* Change to your preferred color */
+    margin-bottom: 5px;
+}
+
+.occupation {
+    font-size: 18px;
+    color: #fff; /* Change to your preferred color */
+}
+
+/* ... (other CSS rules) ... */
+
+.profile-info {
+    text-align: right;
+    font-family: "Helvetica Neue", Arial, sans-serif; /* Change to your preferred font */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9800; /* Change to your preferred color */
+    margin-bottom: 5px;
+    font-family: "Times New Roman", serif; /* Change to your preferred font */
+}
+
+/* ... (other CSS rules) ... */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.centered-text {
+    text-align: center; /* Center horizontally */
+}
+
+.profile-info {
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, sans-serif; /* Change to your preferred font */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Stack items vertically */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9800; /* Change to your preferred color */
+    margin-bottom: 40px;
+    font-family: "Times New Roman", serif; /* Change to your preferred font */
+}
+/* Update the styles for the About Me section */
+#about {
+    padding: 50px;
+    background-color: #faf8f8; /* Add a background color */
+    border-radius: 10px; /* Add some border-radius for a rounded look */
+    box-shadow: 0 10px 20px rgba(128, 126, 126, 0.1); /* Add a subtle box shadow */
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555; /* Change to your preferred color */
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Change to your preferred color */
+}
+
+/* Update the styles for the contact list */
+.contact-list {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: center; /* Center horizontally */
+}
+
+.contact-list li {
+    margin-right: 10px;
+}
+
+.contact-list li a img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Update the styles for the contact list links */
+.contact-list li a {
+    display: inline-block;
+    padding: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 50%;
+}
+
+.contact-list li a:hover {
+    background-color: #1a1616; /* Change to your preferred color */
+    transform: scale(1.1);
+}
+
+#skills {
+    padding: 50px;
+    background-color: #faf8f8; /* Add a background color */
+    border-radius: 10px; /* Add some border-radius for a rounded look */
+    box-shadow: 0 10px 20px rgba(128, 126, 126, 0.1); /* Add a subtle box shadow */
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Change to your preferred color */
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.skill-item {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Change to your preferred color */
+    margin-bottom: 5px;
+}
+/* ... (previous CSS rules) ... */
+
+.experience-list,
+.achievements-list {
+    list-style: disc;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555; /* Change to your preferred color */
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Change to your preferred color */
+}
+
+/* ... (other CSS rules) ... */
+/* Experience and Education Sections */
+#experience,
+#education {
+    padding: 50px;
+    background-color: #faf8f8; /* Add a background color */
+    border-radius: 10px; /* Add some border-radius for a rounded look */
+    box-shadow: 0 10px 20px rgba(128, 126, 126, 0.1); /* Add a subtle box shadow */
+}
+
+#experience h2,
+#education h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Change to your preferred color */
+}
+
+#experience p,
+#education p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Change to your preferred color */
+}
+
+#experience ul,
+#education ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#experience li,
+#education li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Change to your preferred color */
+}
+
+/* Adjust margins and padding as needed */
+#experience ul {
+    margin-top: 10px;
+}
+
+#experience li {
+    margin-bottom: 10px;
+}
+
+#education ul {
+    margin-top: 10px;
+}
+
+#education li {
+    margin-bottom: 10px;
+}
