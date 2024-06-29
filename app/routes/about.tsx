@@ -1,25 +1,23 @@
-// app/routes/_index.tsx
+// app/routes/about.tsx
 
 import type { MetaFunction } from "@remix-run/node";
 import Header from "../components/header";
-import Bio from "../components/bio";
 import Footer from "~/components/footer";
-import Blog from "~/components/blog";
+import AboutContent from "~/components/aboutcontent";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "About Me" },
+    { name: "description", content: "Details about Abhishek Bhat." },
   ];
 };
 
-export default function Index() {
+export default function About() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-3/5 mx-auto">
         <Header />
-        <Bio />
-        <Blog />
+        <AboutContent />
         <Footer />
       </div>
     </div>

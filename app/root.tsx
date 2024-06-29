@@ -3,9 +3,11 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration,
+  ScrollRestoration,Routes, Route
 } from "@remix-run/react";
 import "./tailwind.css";
+import Index from "./routes/_index";
+import About from "./routes/about";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -27,4 +29,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return <Outlet />;
+  <Routes>
+      <Route path="/" element={<Index />} />
+      <Route path="/about" element={<About />} />
+  </Routes>
 }
