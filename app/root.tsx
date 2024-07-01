@@ -8,6 +8,7 @@ import {
 import "./tailwind.css";
 import Index from "./routes/_index";
 import About from "./routes/about";
+import Blogs from "./routes/blogs";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -32,5 +33,6 @@ export default function App() {
   <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/about" element={<About />} />
+      <Route path="/blogs" element={<Blogs />} />
   </Routes>
 }
