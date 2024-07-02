@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function AboutContent() {
   return (
     <div className="text-black dark:text-white">
-      <p className="font-bold">Hi! I am Abhishek.</p>
+      <p className="font-bold">Hi! I am Abhishek Bhat</p>
       <p className="mt-4">Software Engineer + Cricketer + Agriculturists</p>
       <p className="mt-4">
         My aspiration is to bring wellbeing into people lives through Technology
