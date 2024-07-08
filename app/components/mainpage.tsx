@@ -12,12 +12,25 @@ function MainPage() {
         </p>
 
         <h2 className="mt-8 text-xl">Featured Blog</h2>
-          <p className="mt-4">
-            <strong>Virat Kohli: The Modern Cricket Legend</strong> - A detailed blog post about Virat Kohli, his journey, achievements, and impact on cricket.
-          </p>
-        <Link to="/viratblog" rel="noreferrer" className="text-lg text-blue-600 dark:text-gray-300 hover:underline">
-        Read the full blog post
-        </Link>
+        <ul className="list-disc pl-8 mt-4">
+          <li>
+            <Link to="/viratblog" rel="noreferrer" className="text-lg hover:text-blue-700 hover:underline">
+              <strong>Virat Kohli: The Modern Cricket Legend.</strong>
+            </Link>
+              <p className="ml-4 mt-1">
+                - A blog post about Virat Kohli, from my perspective.
+              </p>
+          </li>
+          <li className="mt-4">
+            <Link to="/ourfarm" rel="noreferrer" className="text-lg hover:text-blue-700 hover:underline">
+              <strong>Our Farm</strong>
+            </Link>
+              <p className="ml-4 mt-1">
+                - A blog post about what we do in our farm.
+              </p>
+          </li>
+        </ul>
+
 
       <h2 className="mt-8 text-xl">More to Come</h2>
       <p className="mt-4">
