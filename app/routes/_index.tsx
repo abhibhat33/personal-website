@@ -1,5 +1,8 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
+import Bio from "~/components/bio";
+import Footer from "~/components/footer";
+import Header from "~/components/header";
+import MainPage from "~/components/mainpage";
 
 export const meta: MetaFunction = () => {
   return [
@@ -10,18 +13,13 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix (SPA Mode)</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <Link
-            to="/about"
-            rel="noreferrer"
-          >
-            SPA Mode Guide
-          </Link>
-        </li>
-      </ul>
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="w-3/5 mx-auto">
+      <Header />
+      <Bio />
+      <MainPage />
+      <Footer />
     </div>
+  </div>
   );
 }
