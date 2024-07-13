@@ -1,0 +1,29 @@
+@keyframes image-enter {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes info-enter {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-image-enter {
+  animation: image-enter 2s forwards;
+}
+
+.animate-info-enter {
+  animation: info-enter 2s forwards;
+}

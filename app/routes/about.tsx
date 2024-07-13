@@ -10,7 +10,7 @@ export function clientLoader() {
 export default function About() {
     const loader = useLoaderData<typeof clientLoader>();
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-black">
+    <div className="min-h-screen bg-gray-200 dark:bg-black">
     <div className="w-3/5 mx-auto">
       <Header />
       <AboutContent />
