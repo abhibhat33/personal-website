@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import me from "../assests/me.jpeg";
+import me_2 from "../assests/me_2.png";
 import "../css/Bio.css";
 
 function Bio() {
@@ -15,7 +15,7 @@ function Bio() {
       <div className="flex justify-center py-8 sm:py-0 sm:pr-8">
         <div className={` ${animate ? "animate-image-enter" : ""}`}>
           <img
-            src={me}
+            src={me_2}
             alt="Profile"
             className="w-24 h-24 rounded-full"
           />
