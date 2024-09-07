@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import "./tailwind.css";
+import logo from "./assests/logo_1.webp";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -13,7 +14,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href={logo} />
         <Meta />
         <Links />
       </head>
