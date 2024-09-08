@@ -13,13 +13,13 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-gray-200 dark:bg-black">
-    <div className="w-3/5 mx-auto">
-      <Header />
-      <Bio />
-      <MainPage />
-      <Footer />
+    <div className="min-h-screen">
+      <div className="w-4/5 md:w-3/5 mx-auto py-8">
+        <Header />
+        <Bio />
+        <MainPage />
+        <Footer />
+      </div>
     </div>
-  </div>
   );
 }

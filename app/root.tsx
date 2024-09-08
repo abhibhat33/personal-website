@@ -18,8 +18,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
-        {children}
+      <body className="animated-bg min-h-screen">
+        <div className="content-overlay min-h-screen">
+          {children}
+        </div>
         <ScrollRestoration />
         <Scripts />
       </body>

@@ -10,12 +10,12 @@ export function clientLoader() {
 export default function About() {
     const loader = useLoaderData<typeof clientLoader>();
   return (
-    <div className="min-h-screen bg-gray-200 dark:bg-black">
-    <div className="w-3/5 mx-auto">
-      <Header />
-      <AboutContent />
-      <Footer />
-    </div>
+    <div className="min-h-screen">
+      <div className="w-4/5 md:w-3/5 mx-auto py-8">
+        <Header />
+        <AboutContent />
+        <Footer />
+      </div>
   </div>
   )
 }
