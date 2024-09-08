@@ -6,7 +6,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import "./tailwind.css";
-import logo from "./assests/logo_1.webp";
+import logo from "./assests/logo_2.webp";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
