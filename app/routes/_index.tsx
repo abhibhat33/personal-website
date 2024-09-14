@@ -6,8 +6,8 @@ import MainPage from "~/components/mainpage";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix SPA" },
-    { name: "description", content: "Welcome to Remix (SPA Mode)!" },
+    { title: "Abhi's Website" },
+    { name: "description", content: "Welcome to personal website of Abhishek" },
   ];
 };
 
