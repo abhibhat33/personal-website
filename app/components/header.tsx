@@ -11,6 +11,13 @@ const Header = () => {
         <img src={logo} alt="logo" className="h-12 w-auto" />
       </div>
       <nav className="space-x-10 flex">
+        <a
+          href="https://drive.google.com/file/d/1fwvlGvDuYKYfH66SroeRTlBn77pgtqi1/view?usp=sharing"
+          className="text-lg text-gray-700 dark:text-gray-300 hover:underline"
+          target="_blank"
+          rel="noreferrer">
+          Resume
+        </a>
         <Link to="/" rel="noreferrer" className="text-lg text-gray-700 dark:text-gray-300 hover:underline">
           Blogs
         </Link>
