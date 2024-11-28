@@ -12,7 +12,7 @@ const Header = () => {
       </div>
       <nav className="space-x-10 flex">
         <a
-          href="https://drive.google.com/file/d/1fwvlGvDuYKYfH66SroeRTlBn77pgtqi1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1GNvHm-iyc75JvegSrqG3zHAyPPI0JaSS/view?usp=drive_link"
           className="text-lg text-gray-700 dark:text-gray-300 hover:underline"
           target="_blank"
           rel="noreferrer">
