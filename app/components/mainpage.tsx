@@ -18,7 +18,7 @@ function MainPage() {
               <strong>Virat Kohli: The Modern Cricket Legend.</strong>
             </Link>
               <p className="ml-4 mt-1">
-                - A blog post about Virat Kohli, from my perspective.
+                - A blog post about Virat Kohli, My hero from my perspective.
               </p>
           </li>
           <li className="mt-4">
