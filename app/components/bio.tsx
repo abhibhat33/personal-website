@@ -28,7 +28,7 @@ function Bio() {
             Abhishek Bhat
           </p>
         </h1>
-        <p className="text-black dark:text-white mb-0 mt-0">Software Engineer + Agriculturist</p>
+        <p className="text-black dark:text-white mb-0 mt-0">Software Engineer</p>
       </div>
     </div>
   );

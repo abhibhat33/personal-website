@@ -16,16 +16,18 @@ function AboutContent() {
     { name: "React.js", color: "bg-blue-600" },
     { name: "Ruby on Rails", color: "bg-red-600" },
     { name: "JavaScript / TypeScript", color: "bg-yellow-400" },
-    { name: "Gen AI", color: "bg-purple-600" }
+    { name: "Gen AI", color: "bg-purple-600" },
+    { name: "Node.js", color: "bg-green-600" },
+
   ];
 
   return (
     <div className="text-black dark:text-white">
       <p className="font-bold">Hi! I am Abhishek.</p>
-      <p className="mt-4">Software Engineer + Agriculturist</p>
+      <p className="mt-4">Software Engineer</p>
       <p className="mt-4">
         My goal is to enhance people's lives through technology and other means. I currently live in Sagar, Karnataka, India 🇮🇳 . I am a Software engineer, I have been working on converting ideas into software application for almost {new Date().getFullYear() - 2022} + years. I am currently working at{" "}
-        <a href="https://tikkl.com" target="_blank">
+        <a href="https://tikkl.com" target="_blank" rel="noreferrer">
           Tikkl
         </a>
         . I have a completed B.Tech in Information Science and Engineering.
